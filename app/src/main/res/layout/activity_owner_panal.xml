@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OwnerPanalActivity">
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/tv_create_phrmacy"
+        android:padding="24dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="@string/create_pharmacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_show_Phrmacy"
+        android:padding="24dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="Show Pharmacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:text="Sign out"
+        android:id="@+id/tv_sign_out"
+        android:padding="16dp"
+        android:background="@drawable/white_onclick_grey"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

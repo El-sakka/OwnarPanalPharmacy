@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="36dp"
+        android:padding="24dp"
+        android:hint="Phramcy name"
+        android:gravity="center"
+        android:id="@+id/tv_phramcy_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Add Medicine"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:id="@+id/tv_add_medicine"
+        android:padding="16dp"
+        android:background="@drawable/click_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Show Reservation"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:id="@+id/tv_show_reservation"
+        android:padding="16dp"
+        android:background="@drawable/click_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
